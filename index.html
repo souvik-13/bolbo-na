@@ -8,7 +8,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-
     <style>
       * {
         padding: 0;
@@ -20,6 +19,7 @@
         background-color: #fdbf00;
       }
       .card {
+        z-index: 5;
         width: 800px;
         height: 600px;
         position: absolute;
@@ -181,8 +181,11 @@
         border-radius: 10px;
       }
     </style>
+
+    <link rel="stylesheet" href="baloons.css" />
   </head>
   <body>
+    <script src="./baloons.js"></script>
     <div class="card">
       <div class="outside">
         <div class="front">
@@ -207,5 +210,6 @@
         <!-- <h1>&#127873;</h1> -->
       </div>
     </div>
+    <script src="./cursor.js"></script>
   </body>
 </html>
